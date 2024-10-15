@@ -1,0 +1,312 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.azeret-mono-<uniquifier> {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+  
+}
+.title1{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.download-resume {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.banner {
+  background: url('assets/Hero-bg.png') no-repeat center center;
+  background-size: cover;
+  width: 1440;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.banner .avatar {
+  width: 240.28px;
+  border-radius: 50%;
+}
+
+.banner h1 {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #0D1321;
+  /* width: 998px; */
+}
+
+.banner p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+  color: #0D1321;
+  text-shadow: #000000;
+  /* width: 998px; */
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.web-development,  .my-next-target {
+  background: #f9f9f9;
+  margin: 80px 97px;
+  /* pad: 80px 97px; */
+  color: #050608;
+  margin-bottom:  48px;
+}
+.webdev{
+  
+
+}
+.web-contain{
+  margin: 80px 97px;
+}
+.web-image{
+  justify-content: space-between;
+  width: 240px;
+  height: 240;
+  margin: auto;
+  
+
+}
+.cards, .targets {
+  display: grid;
+  
+}
+.cardinside h1{
+  /* margin: 48px ; */
+  font-weight: bold;
+  color: #0D1321;
+  width: 448;
+
+ 
+}
+
+.card {
+  background: #fff;
+  padding: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.card img, .target img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.card-content, .target-content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.card h3, .target h3 {
+  margin: 10px 0;
+}
+
+.my-inspiration{
+  font-size: 16;
+  margin: 0;
+  /* color:rgba(2, 0, 0, 0.05); */
+
+  
+
+}
+
+.video iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.targetmy{
+  padding:none ;
+  margin: auto;
+  padding: auto;
+  gap: 48px;
+ 
+
+}
+.target-container{
+  display: flex;
+  background: #f9f9f9;
+  margin: 80px 97px;
+  /* pad: 80px 97px; */
+  color: #050608;
+  gap: 32px;
+  padding: auto;
+  
+}
+.container-title{
+  font-size: large;
+  font-weight: bolder;
+  
+
+}
+p{
+  color: #0D1321;
+}
+.amialada{
+  color: white;
+}
+.link{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.container-1{
+  background-color:rgba(225, 46, 0, 0.05);  
+  width: 364px;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: left;
+  
+
+}
+.container-2{
+  background-color: #EBEBEB;  
+  width: 364px;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 40px;
+
+  text-align: left;
+
+}
+.container-3{
+  background-color:rgba(255, 223, 0, 0.05);  
+  width: 364px;
+  border-radius: 16px;
+  width: 364px;
+  gap: 32px;
+  padding: 40px;
+
+  text-align: left;
+
+
+}
+.mytarget{
+  margin: 80px 97px 0px 97px;
+
+}
+
+.target{
+  background: #fff;
+  gap: 32;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  box-shadow: 2px;
+  /* border-width: 20px; */
+  padding: 40px;
+  border: 1px solid black;
+}
+
+.support form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.support{
+  background: url('assets/handshake.jpg') no-repeat center center/cover;
+  margin: 80px 97px;
+  color:white;
+  margin-bottom:  48px;
+  border-radius: 16px;
+  
+}
+
+
+.support input {
+  padding: 10px;
+  width: 300px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  
+  gap: 10px;
+
+}
+
+.support button {
+  padding: 10px 20px;
+  background: #FFFFFF;
+  color: #0D1321;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  gap: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.footer{
+  text-align: center;
+  /* padding: 150px 32px; */
+  justify-content: space-between;
+  display: flex;
+  margin: 80px 97px;
+}
+
+.social-links img {
+  width: 24px;
+  margin: 0 10px;
+}
